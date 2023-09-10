@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="780.0" style="-fx-background-color: #f8f2e6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+      <VBox prefHeight="406.0" prefWidth="332.0" styleClass="vbox_background_right" stylesheets="@loginPage.css" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="159.0" prefWidth="332.0">
+               <children>
+                  <VBox alignment="BOTTOM_CENTER" prefHeight="138.0" prefWidth="125.0">
+                     <children>
+                        <Text fill="#e19d28" strokeType="OUTSIDE" strokeWidth="0.0" text="Space" wrappingWidth="131.630859375">
+                           <font>
+                              <Font name="System Bold" size="36.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Consideration" wrappingWidth="134.630859375">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="52.0" prefWidth="332.0">
+               <children>
+                  <TextField prefHeight="39.0" prefWidth="267.0" promptText="User Name" style="-fx-background-radius: 50; -fx-border-radius: 50;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="46.0" prefWidth="332.0">
+               <children>
+                  <TextField prefHeight="39.0" prefWidth="267.0" promptText="Password" style="-fx-background-radius: 50; -fx-border-radius: 50;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="46.0" prefWidth="332.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="267.0" style="-fx-background-radius: 50; -fx-border-radius: 50;" styleClass="login_button" stylesheets="@loginPage.css" text="Button" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_RIGHT">
+               <children>
+                  <Label text="Foget Password" textFill="#4972f7">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="30.0" />
+               </padding>
+            </HBox>
+         </children></VBox>
+   </right>
+   <center>
+      <VBox prefHeight="406.0" prefWidth="449.0" styleClass="vbox_background_center" stylesheets="@loginPage.css" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="248.0" prefWidth="448.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="39.0" style="-fx-background-radius: 50; -fx-border-radius: 50;" styleClass="profile_button" stylesheets="@loginPage.css" text="Cc." textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@hamburger-menu-icon-png-white-14.jpg" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="MENU" textFill="#d36912">
+                     <font>
+                        <Font name="Ebrima Bold" size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </Label>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="60.0" prefWidth="200.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="83.0" style="-fx-background-radius: 50; -fx-border-radius: 50;" text="Sign Up">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="79.0" style="-fx-background-radius: 50;" styleClass="login_button" stylesheets="@loginPage.css" text="Login" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </HBox>
+            <VBox prefHeight="447.0" prefWidth="448.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="85.0" prefWidth="448.0">
+                     <children>
+                        <Label alignment="CENTER" text="Space">
+                           <font>
+                              <Font name="Impact" size="48.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="15.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label text="For">
+                           <font>
+                              <Font name="Impact" size="48.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.3947368562221527" green="0.3947368562221527" blue="0.3947368562221527" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="0.5529412031173706" green="0.24705882370471954" blue="0.24705882370471954" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="103.0" prefWidth="448.0">
+                     <children>
+                        <HBox prefHeight="106.0" prefWidth="448.0" />
+                        <Label text="Space">
+                           <font>
+                              <Font name="Impact" size="48.0" />
+                           </font>
+                        </Label>
+                        <Label text="Company">
+                           <font>
+                              <Font name="Impact" size="48.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.3947368562221527" green="0.3947368562221527" blue="0.3947368562221527" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="0.5529412031173706" green="0.24705882370471954" blue="0.24705882370471954" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children></VBox>
+   </center>
+</BorderPane>

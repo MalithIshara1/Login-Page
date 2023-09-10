@@ -1,0 +1,28 @@
+.vbox_background_center{
+
+    -fx-background-image: url("center.jpg");
+}
+
+.vbox_background_right{
+    -fx-background-image: url("right.jpg");
+}
+.profile_button{
+    -fx-background-color: #000000;
+
+}
+.profile_button:hover{
+    -fx-background-color: #d39d58;
+    -fx-cursor: hand;
+}
+.login_button{
+    -fx-background-color: #ed6637;
+}
+.login_button:hover{
+    -fx-background-color: #d39d50;
+}
+.sign_button{
+    -fx-background-color: transparent;
+}
+.sign_button:hover{
+    -fx-background-color:#ed6637 ;
+}
